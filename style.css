@@ -1,0 +1,43 @@
+html {
+    background-color: black;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .loginPanel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 12em;
+    height: 8em;
+    border: none;
+    border-radius: 0.5em;
+    overflow: hidden;
+    flex-wrap: wrap;
+    margin-top: 3em;
+  }
+  
+  input {
+    border-radius: 0.5em;
+    border: 1px solid blue;
+    opacity: 0.5;
+    padding-left: 0.5em;
+  }
+  
+  button {
+    border-radius: 0.5em;
+    border: none;
+    background-color: blue;
+    width: 5em;
+    height: 1.5em;
+    color: white;
+    font-family: Arial;
+  }
+  
